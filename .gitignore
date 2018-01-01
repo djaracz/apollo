@@ -1,0 +1,22 @@
+# See https://help.github.com/ignore-files/ for more about ignoring files.
+
+.idea
+
+node_modules
+
+# mobile
+# expo
+./mobile/expo/
+
+# dependencies
+./mobile/node_modules
+
+# misc
+./mobile/.env.local
+./mobile/.env.development.local
+./mobile/.env.test.local
+./mobile/.env.production.local
+
+npm-debug.log*
+./mobile/yarn-debug.log*
+./mobile/yarn-error.log*
